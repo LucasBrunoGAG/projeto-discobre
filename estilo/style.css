@@ -16,6 +16,8 @@
      --cor3: #2fa866;
      --cor4: #1a5c37;
      --cor5: #063d1e;
+     --cor6: #331a6e;
+     --cor7: #14072d;
 
      --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
      --fonte-destaque: 'Bebas Neue', cursive;
@@ -37,7 +39,7 @@ a.externo::after {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--cor6), var(--cor7));
     min-width: 150px;
     text-align: center;
     padding-top: 40px;
