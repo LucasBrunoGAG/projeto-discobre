@@ -30,11 +30,30 @@ header {
     height: 140px;
     }
 
+    picture.estrela {
+       display: flex; 
+       margin-top: -113px;
+       margin-left: -100px;
+       width: 180px;
+       height: 180px;
+       
+        
+    }
+
+    picture.disc {
+        display: block;   
+        
+    }
+
     header h1 {
         color: white;
         padding-bottom: 40px;
         font-size: 50px;
         font-family: "Madimi One", sans-serif;
+    }
+
+    div.txtp {
+        margin-top: 200px;
     }
 
    type="text/css"
@@ -48,7 +67,8 @@ header {
     width:260px;
     height:23px;
     margin-right: 250px;
-    padding:5px 0 5px 5px;
+    margin-top: 50px;
+    padding: 10px 10 10px 10px;
     float:right; // posição do campo
     line-height:6px; // altura da linha
     }
@@ -65,12 +85,6 @@ header {
     font-weight:bold;
     text-transform:uppercase;
     }
-
-    #btnBusca:hover {
-    background:#99cccc; 
-    }
-
-
     body {
         background-color: rgba(0, 0, 0, 0.95);
     }
@@ -79,8 +93,6 @@ header {
         color: white;
         font-size: 50px;
         text-align: center ;
-    }
-    
-    h1 {
         font-family: "Madimi One", sans-serif;
     }
+    
