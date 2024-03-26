@@ -1,22 +1,17 @@
 @charset "UTF8";
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.noto-sans-<uniquifier> {
-  font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 
 h1 {
     font-family: "Noto Sans", sans-serif;
 }
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 :root{
     
@@ -84,6 +79,8 @@ header {
         color: white;
         font-size: 50px;
         text-align: center ;
-
     }
     
+    h1 {
+        font-family: "Madimi One", sans-serif;
+    }
