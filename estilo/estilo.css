@@ -35,14 +35,26 @@ header {
        margin-top: -113px;
        margin-left: -100px;
        width: 180px;
-       height: 180px;
-       
-        
+       height: 180px;      
     }
 
     picture.disc {
         display: block;   
         
+    }
+
+    picture.idisc {
+        display: flex;
+        margin-left: 1100px;
+        margin-top: -150px;
+    }
+
+    picture.busca {
+        position: absolute;
+        width: 130px;
+        height: 130px;
+        display: flex;
+        margin-left: 970px;
     }
 
     header h1 {
@@ -53,7 +65,16 @@ header {
     }
 
     div.txtp {
-        margin-top: 200px;
+        position: absolute;
+        padding: 0px;
+        margin-top: 230px;
+        margin-left: 40px;       
+    }
+
+    div.txtp h1 {
+        font-size: 60px;
+        padding: 0px;
+        margin-top: 0px;
     }
 
    type="text/css"
@@ -64,13 +85,13 @@ header {
     #txtbusca {
     border:0px solid #222;
     background:#EEE;
-    width:260px;
-    height:23px;
+    width:320px;
+    height:43px;
     margin-right: 250px;
     margin-top: 50px;
-    padding: 10px 10 10px 10px;
+   
     float:right; // posição do campo
-    line-height:6px; // altura da linha
+    line-height:15px; // altura da linha
     }
 
     #btnBusca {
