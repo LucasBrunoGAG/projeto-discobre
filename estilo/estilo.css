@@ -28,25 +28,51 @@ header {
     text-align: center;
     padding-top: 40px;
     height: 140px;
+    color: #FFFFFF;
+    font-family: "Madimi One", sans-serif;
     }
 
-    picture.estrela {
+    picture.star {
        display: flex; 
        margin-top: -113px;
-       margin-left: -100px;
+       margin-left: -50px;
        width: 180px;
-       height: 180px;      
+       height: 180px;
+       opacity: 0.5;      
     }
 
-    picture.disc {
-        display: block;   
-        
+    picture.tittle {
+        display: block;
+	position: relative;
+	width: 1350px;
+	text-align: center;   
     }
 
-    picture.idisc {
-        display: flex;
-        margin-left: 1100px;
-        margin-top: -150px;
+    picture.flag {
+        display: block;
+	width: 1130px;
+	margin-top: -177.5px;
+	text-align: right;
+    }
+
+    .welcome {
+       display: flex; 
+       margin-top: -57.5px;
+       margin-left: 1130px;  
+    }
+
+    .dashboard {
+       display: flex;
+       margin-top: -5px;
+       margin-left: 1070px;      
+    }
+
+    picture.user {
+        display: block;
+	position: relative;
+	width: 1250px;
+	margin-top: -20px;
+	text-align: right;
     }
 
     picture.busca {
@@ -72,7 +98,7 @@ header {
     }
 
     div.txtp h1 {
-        font-size: 60px;
+        font-size: 60px;;
         padding: 0px;
         margin-top: 0px;
     }
@@ -112,8 +138,46 @@ header {
 
     body h1 {
         color: white;
-        font-size: 50px;
+        font-size: 32px;
         text-align: center ;
         font-family: "Madimi One", sans-serif;
     }
-    
+
+    .TopTagsPosition {
+	display: inline-block;
+	text-align: left;
+    }
+
+    .TopTags {
+        color: white;
+        font-size: 26px;
+        text-align: center;
+	position: relative;
+	left: 90px;
+	line-height: 0.25;
+        font-family: "Madimi One", sans-serif;
+    }
+
+/* Abaixo tem o código pra criar botões, botei umas cores aleatórias pra teste. Mude como achar melhor. O Border-Radius é pra circular os botões. */
+
+    .btn-link {
+	text-decoration: none;
+        border: 1px solid #5661F5;
+        width: relative;
+        text-align: center;
+	padding: 10px;
+	font-family: "Madimi One", sans-serif;
+	font-size: 16px;
+	background-color: #5661F5;
+	color: #FFFFFF;
+	display: block;
+	position: relative;
+	left: 90px;
+	border-radius: 2.5px 12.5px 2.5px 12.5px;
+    }
+
+    .btn-link:hover {
+        background-color: #FFFFFF;
+	color: #5661F5;
+	box-shadow: 2px 2px 2px #14072D;
+    }
