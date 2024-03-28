@@ -39,6 +39,19 @@ header {
         padding: 0px;        
     }
 
+    header h2.dash {        
+        color: white;
+        background-color: rgb(99, 119, 179);
+        font-family: "Madimi One", sans-serif;
+        font-size: 35px;
+        margin-left: 960px;
+        margin-top: 80px;
+        padding: 0px;     
+        text-align: center; 
+        border-radius: 10px;  
+      width: 260px;
+    }
+
     picture.bandeira {
         display: flex;       
         height: 20%;
@@ -76,6 +89,7 @@ header {
         height: 130px;
         display: flex;
         margin-left: 955px;
+        padding: 0px;
     }
 
     header h1 {
@@ -89,13 +103,15 @@ header {
         position: absolute;
         padding: 0px;
         margin-top: 210px;
-        margin-left: 40px;       
+        margin-left: 40px;      
+        
     }
 
     div.txtp h1 {
         font-size: 60px;
         padding: 0px;
-        margin-top: 0px;
+        margin: 20px;
+        border: 0px;
     }
 
    type="text/css"
