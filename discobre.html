@@ -4,18 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discobre</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/estilo.css">
 </head>
 <body>
     <header>
-        <picture class="disc"><img src="imagens/discobretittle.png" alt=""></picture>
-        <picture class="estrela"><img src="imagens/discobreicontest3.png" alt=""></picture>
-        <picture class="idisc"><img src="imagens/discordusericon.png" alt=""></picture>
-        <picture class="bandeira"><img src="imagens/Brasil2.png" alt=""></picture>
-        <h2 class="boas">Boas -vindas "usuário"!</h2>
-        <h2 class="dash">Dashboard</h2>
-        <p></p>       
-    </header>   
+        <picture class="tittle"><img src="imagens/discobretittle.png" alt="DISCOBRE"></picture>
+        <picture class="star"><img src="imagens/discobreicontest3.png" opacity="0.5" alt="Imagem de Estrela com Lupa no Cabeçalho"></picture>
+        <picture class="flag"><img src="imagens/brazil.png" alt="PT-BR"></picture>
+	<div class='welcome'>
+	<p>Boas-Vindas "Usuário"!</p>
+	</div>
+	<picture class="user"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="imagens/discordusericon.png" alt="Ícone de Usuário do Discord"></a></picture>    
+	<div class='dashboard'>
+		<a class="btn-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Dashboard</a>
+	</div>
+    </header> 
+	<div class='TopTagsPosition'>
+	    <div class='TopTags'>
+	<p>Tags & Categorias</p>
+	<p>em Alta</p>
+    	    </div>
+	</div>
+	<table>
+	<tr>
+	<th><a class="btn-link" href="">TAG 1</a></th>
+	<th><a class="btn-link" href="">CATEGORIA 1</a></th>
+	</tr>
+	<tr>
+	<th><a class="btn-link" href="">TAG 2</a></th>
+	<th><a class="btn-link" href="">CATEGORIA 2</a></th>
+	</tr>
+	<tr>
+	<th><a class="btn-link" href="">TAG 3</a></th>
+	<th><a class="btn-link" href="">CATEGORIA 3</a></th>
+	</tr>
+	<tr>
+	<th><a class="btn-link" href="">TAG 4</a></th>
+	<th><a class="btn-link" href="">CATEGORIA 4</a></th>
+	</tr>
+	<tr>
+	<th><a class="btn-link" href="">TAG 5</a></th>
+	<th><a class="btn-link" href="">CATEGORIA 5</a></th>
+	</tr>
+	<tr>
+	<th><a class="btn-link" href="">TAG 6</a></th>
+	<th><a class="btn-link" href="">CATEGORIA 6</a></th>
+	</tr>
+	</div>   
     <div id='busca'>
         <form action="/search" class="search" method="get">
             <input id="txtbusca" name="q" type="text" value="" placeholder="Digite o que você procura" />           
